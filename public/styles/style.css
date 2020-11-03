@@ -1,0 +1,26 @@
+/*Style.CSS*/
+/* All logos and logo sizes are edited in this CSS*/
+
+.header-logo-image, .footer-logo{
+    background-size:85px 12px;
+    background-repeat: no-repeat;
+    background-position:left center;
+    height:100%;
+    width:147px;
+}
+
+#preloader h1{
+    background-size:160px 23px;
+    background-repeat: no-repeat;
+    background-position:center bottom;
+    height:100px;
+}
+
+.preloader-light h1{background-image:url(../images/logo-dark.png)!important;}
+.preloader-dark h1{background-image:url(../images/logo-light.png)!important;}
+
+.dark-skin .header-logo-image,
+.dark-skin .footer-logo{background-image:url(../images/logo-light.png)!important;}
+
+.light-skin .header-logo-image,
+.light-skin .footer-logo{background-image:url(../images/logo-dark.png)!important;}
