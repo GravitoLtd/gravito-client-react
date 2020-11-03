@@ -260,7 +260,7 @@ export  default  App;
 ```
 ## What after getting token?
 ### Send this token as Authorization header with every API request to Gravito:
-*
+
 ```js
 loginUser  =  async () => {
 
